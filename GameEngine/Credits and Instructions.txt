@@ -1,0 +1,25 @@
+Inspiration and tutorial credit to "Lode's Computer Graphics Tutorial" and their in depth explanation into Raycasting.
+Link to the website: https://lodev.org/cgtutor/raycasting.html
+
+Instructions:
+	-Raycast Map Demo
+		In this demo, and the tutorial listed above, player movement was added to allow the player explore the rendered world
+		rather than just look at it. Use the WASD keys to move around. I found it was easy to get stuck on corners,
+		so I added the functionality to reset the player's position to their original starting position. I hope you enjoy this
+		simplistic, yet fun to make, demo!
+
+	-Raycast Map Editor
+		Yes, I actually decided to do this as well. I did not feel alright only following a tutorial and adapting / 
+		implementing their code to Lua, I wanted to go a little further. In this editor you are presented with the 2D grid
+		that represents the map from the demo above, and 6 squares to the right of said grid. You can navigate each
+		tile in the grid with the WASD keys. If you have found a tile you would like to change, simply press tab until the
+		arrow on the right points to the correct color (the first color is clear, which means no wall will render in).
+			-Be warry of editing in this software, it will save every time you make a change.
+			-The light, teal tile with a black square is the starting position of the player, and this tile cannot be
+			changed nor edited due to time constraints.
+
+Finally, some things I thought were cool that I added to the solution for this project.
+	-I added a glue function akin to the "Debug.Log()" function from Unity, that allows you to pass a string of your values from
+	Lua for debugging. This helped me A LOT.
+	-I added several glue functions for drawing lines and shapes. In fact, the raycast demo would not work without the addition 
+	of the DrawLine glue function.
