@@ -1,14 +1,14 @@
 <h1>Mote Engine Raycaster</h1>
 <h2>Made by William Lacalle</h2>
 
-<h3>Mote Game Engine:<h3> 
+<h3>Mote Game Engine:</h3> 
 <p>https://github.com/jmarshallstewart/MoteGameEngine</p>
 
-<h3>Lode's Computer Graphics Tutorial:<h3>
+<h3>Lode's Computer Graphics Tutorial:</h3>
 <p>https://lodev.org/cgtutor/raycasting.html</p>
 <p>Reading this tutorial inspired me to learn more about Raycasting and convert their C++ code into functioning Lua code! Check it out!</p>
 
-<h3>Raycast Map Demo<h3>
+<h3>Raycast Map Demo</h3>
 <p>In this demo, and the tutorial listed above, player movement was added to allow the player to explore the area they create. Use the WASD keys to move around the 3D environment. The player may be reset to their spawning position using the R key.</p>
 
 <h3>Raycast Map Editor</h3>
