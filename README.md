@@ -13,9 +13,9 @@
 
 <h3>Raycast Map Editor</h3>
 <p>I decided to also add a map editor, which the original tutorial did not have. To load the map editor rather than the map demo, you must open the config.lua file and change the per-project loaded script to "mapEditor.lua". In this editor you are presented with a 2D grid that represents your map, and 6 squares to the right of said grid. To navigate the tiles of the grid, use the WASD keys. To change the current tile you have selected, press TAB until the arrow on the right is pointing to your preferred color (Note: The first color is clear, this means that no wall will render in that spot.). To check your new map, simply change the loaded script back to the "raycastMapDemo.lua" and you are ready to run the software!
-    -Be wary of editing in this software, it saves the map file every time a change is made.
-    -The light, teal tile with a black square is the starting position of the player and cannot be edited nor changed.</p>
+<br><tab>-Be wary of editing in this software, it saves the map file every time a change is made.
+<br><tab>-The light, teal tile with a black square is the starting position of the player and cannot be edited nor changed.</p>
 
-<h3>Changes made to the Mote Engine</h3>
-<p> -Added a glue function akin to the "Debug.Log()" function from Unity. This allows the user to pass a string from your Lua code for debugging.
-    -Added several glue functions for drawing lines and shapes.</p>
+<h3>Changes made to the Mote Engine:</h3>
+<p><tab>-Added a glue function akin to the "Debug.Log()" function from Unity. This allows the user to pass a string from your Lua code for debugging.
+<br><tab>-Added several glue functions for drawing lines and shapes.</p>
